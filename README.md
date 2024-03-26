@@ -10,3 +10,4 @@
     * Escalable  : en forma horizontal o vertical
         -Horizontal : no se modifican los servidores existentes, se agrega nuevos servidores al balanceador
         -Vertical   : redimensiona un servidor existente
+    * Auto-Scaling  : Redimensionar los recursos de acuerdo a la demanda de la aplicación 
