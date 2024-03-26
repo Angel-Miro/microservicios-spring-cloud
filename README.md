@@ -1,7 +1,7 @@
 # microservicios-spring-cloud
 
 ## Características
-    * La aplicación se seapra en pequeños componentes con una responsabilidad limitada
+    * La aplicación se se prepara en pequeños componentes con una responsabilidad limitada
     * Despliegue independiente
     * Protocolos ligeros de comunicación como HHTP o JSON
 ## Objetivos 
