@@ -21,3 +21,10 @@
     * Container as a Service (CaaS) : Modelo intermedio ente IaaS y PaaS, con CaaS se puede desplegar ms de  una forma ligera a través de contenedores virtuales portables
        -Los clientes aún tienen que escribir el código y gestionar sus datos y aplicaciones. Sin embargo, el entorno para crear e implementar aplicaciones en contenedores lo gestiona y mantiene el proveedor de servicios en la nube
     * Functions as a Service (FaaS) : Serverless Architecture , ejecutar código con  necesidad de mantener ningún tipo de servidor
+
+## Características
+    * Dimensionamiento : Determinar el tamaño de un microservicio, delimitar
+    * Administración de ubicaciones : Un microservicio debe de ser simple de ubicar, iniciar, apagar.
+    * Resilencia : Debe de tolerar fallas  y en caso que no, debe de fallar rápido para poder redigirir el tráfico, que hacer cuando un ms falla
+    * Replicable : Misma versión del código, para que las respuestas de neogicio sean las mismas
+    * Escalables : El acomplamiento en la comunicación debe de ser mínima para un rápido crecimiento o decremento
