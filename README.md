@@ -28,3 +28,14 @@
     * Resilencia : Debe de tolerar fallas  y en caso que no, debe de fallar rápido para poder redigirir el tráfico, que hacer cuando un ms falla
     * Replicable : Misma versión del código, para que las respuestas de neogicio sean las mismas
     * Escalables : El acomplamiento en la comunicación debe de ser mínima para un rápido crecimiento o decremento
+
+## Métodos(verbos) HTTP 
+    * **GET**     : Es utilizado para obtener información
+    * HEAD    : Es igual al GET  pero devuelve el estatus y los headers
+    * **POST**    : Es utilizado para enviar información
+    * **PUT**     : Remplaza el contenido de un recurso por el nuevo
+    * **PATCH**   : Aplica modificaciones parciales al recurso ya existente
+    * **DELETE**  : Borra la información del recurso
+    * TRACE   : Es utilizado para debugging enviando un echo al usuario
+    * OPTIONS : Describe las opciones de comunicación del server
+    * CONNECT : Crea un tunel con el servidor
