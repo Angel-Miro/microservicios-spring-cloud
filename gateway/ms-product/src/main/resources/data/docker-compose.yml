@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: db_springboot_cloud
+    restart: always
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: agl
+      MYSQL_PASSWORD: agl
+      MYSQL_DATABASE: db_springboot_cloud
+    ports:
+      - "3306:3306"
+    expose:
+      - '3306'
+volumes:
+  mysql_data:
